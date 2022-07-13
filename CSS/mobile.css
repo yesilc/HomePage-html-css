@@ -1,0 +1,19 @@
+#navbar{
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    overflow: hidden; /*linklerin üzerine gelidğimizde ortaya çıkan background dışarı taşıyor. bu özellik sayesinde taşma gizleniyor*/
+    height: 90px;
+}
+
+#training .items{
+    flex-direction: column;
+}
+
+#training .items .item{
+    width: 100%;
+}
+
+#courses .course{
+    flex-direction: column;
+}
